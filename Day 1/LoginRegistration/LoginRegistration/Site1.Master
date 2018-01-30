@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LoginRegistration.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <%--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    --%><link href="style/style1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form action="#" runat="server">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div id="divCenter" runat="server" class="divhead"></div>
+                </div>
+                <%--<ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home Page</a></li>      
+      <li><a href="#">Update</a></li>  
+        <li><a href="#">Upload Profile Pic</a></li>       
+    </ul>--%>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><span class="glyphicon glyphicon-home"></span>
+                        <asp:Button class="btn" ID="HomeButton" runat="server" OnClick="Button3_Click" Text="Home" /></li>
+
+                    <li><span class="glyphicon glyphicon-user"></span>
+                        <asp:Button class="btn" ID="ViewButton" runat="server" OnClick="Button2_Click" Text="View Profile" /></li>
+                    <li><span class="glyphicon glyphicon-edit"></span>
+                        <asp:Button class="btn" ID="UpdateButton" runat="server" OnClick="Button4_Click" Text="Update Profile" /></li>
+                    <li><span class="glyphicon glyphicon-edit"></span>
+                        <asp:Button class="btn" ID="UploadButton" runat="server" OnClick="Button5_Click" Text="Upload Pic" /></li>
+                    
+                    <li><span class="glyphicon glyphicon-log-in"></span>
+                        <asp:Button class="btn" ID="LogoutButton" runat="server" OnClick="Button1_Click" Text="Logout" /></li>
+                    <%--<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>--%>
+                </ul>
+
+            </div>
+        </nav>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="footer">
+            &copy Cognizant, 2018
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+D:\EMP666114\ASP.NET\Day 2\CopyConstrucorinCSharp\CopyConstrucorinCSharp\bin\Debug\CopyConstrucorinCSharp.exe.config
+D:\EMP666114\ASP.NET\Day 2\CopyConstrucorinCSharp\CopyConstrucorinCSharp\bin\Debug\CopyConstrucorinCSharp.exe
+D:\EMP666114\ASP.NET\Day 2\CopyConstrucorinCSharp\CopyConstrucorinCSharp\bin\Debug\CopyConstrucorinCSharp.pdb
+D:\EMP666114\ASP.NET\Day 2\CopyConstrucorinCSharp\CopyConstrucorinCSharp\obj\Debug\CopyConstrucorinCSharp.csprojResolveAssemblyReference.cache
+D:\EMP666114\ASP.NET\Day 2\CopyConstrucorinCSharp\CopyConstrucorinCSharp\obj\Debug\CopyConstrucorinCSharp.exe
+D:\EMP666114\ASP.NET\Day 2\CopyConstrucorinCSharp\CopyConstrucorinCSharp\obj\Debug\CopyConstrucorinCSharp.pdb

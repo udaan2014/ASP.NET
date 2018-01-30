@@ -1,0 +1,49 @@
+﻿.container{
+    padding:5%;
+    width:50%;
+}
+.alert{
+    padding:0px;
+}
+
+#message{
+    display:block;
+    padding:10px;
+    height: 42px;
+}
+html,body{
+	height:100%;
+	margin:0px;
+}
+
+.footer{
+	bottom:0;
+	position:fixed;
+	background-color: dimgray;
+   color: white;
+	width:100%;
+	padding:10px;
+	text-align:center;
+}
+
+#RegisterButton, #ForgotButton{
+    border:none;
+    background-color:transparent;
+    color:#2e6da4;
+}
+
+#SignInButton
+{
+     border:none;
+    background-color:transparent;
+    color:#2e6da4;
+}
+
+#LogoutButton, #ViewButton, #HomeButton, #UpdateButton, #UploadButton {
+    background-color:transparent;
+    border:none;
+    padding:10px;
+}
+.navbar .navbar-default{
+    padding:20px;
+}
